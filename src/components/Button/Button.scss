@@ -1,0 +1,9 @@
+@import "./../../sass/variables.scss";
+.my-button {
+  background-color: $back-ground-color;
+  cursor: pointer;
+  padding: 1rem;
+  font-weight: 600;
+  font-size: 1.5rem;
+  border-radius: 5px;
+}

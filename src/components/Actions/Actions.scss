@@ -1,0 +1,18 @@
+.actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  color: white;
+  & .socials {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    &__button {
+      padding: 1rem 1.5rem;
+      fill: white;
+    }
+  }
+  & .new-quote {
+    font-weight: 400;
+  }
+}
